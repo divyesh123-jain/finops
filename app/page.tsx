@@ -1,12 +1,17 @@
-
+"use client"
 
 import { Button } from '@nextui-org/react'
-import Image from 'next/image'
 
+import {Image} from "@nextui-org/react";
+import './globals.css'
 export default function Home() {
   return (
    <>
-<div className='text-white text-3xl'>njdskm,l</div>
+   <section className=''>
+ <Button>dhs</Button>
+
+   </section>
+
    </>
   )
 }
