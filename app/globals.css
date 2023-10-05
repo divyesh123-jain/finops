@@ -6,6 +6,11 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --New-Swatch: #130A17;
+  --New-Swatch: #120916;
+  --New-Swatch: #000F1A;
+  --New-Swatch: #000E1C;
+  --New-Swatch: #0C0E19;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,11 +22,5 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: var(--New-Swatch);
 }
