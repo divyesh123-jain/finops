@@ -5,6 +5,7 @@ import { Button } from '@nextui-org/react'
 import {Image} from "@nextui-org/react";
 import './globals.css'
 import SideBar from '@/app/components/SideBar';
+import Header from './components/Header';
 export default function Home() {
   return (
    <>
@@ -12,10 +13,13 @@ export default function Home() {
               
                 <div className='flex-1 bg-black px-4 pb-4 md:p-4'>
                 
-                    <div className='bg-white/95 rounded-2xl flex flex-col gap-4 w-full p-4 h-full md:rounded-[40px]'>
-                   <h1 className='text-black'>sjabk</h1>
-                    {/* <SideBar /> */}
+                    <div className='bg-white/95 rounded-2xl flex flex-col gap-4 w-full  h-full divide-x divide-blue-200 md:rounded-[40px]'>
+                    
+                   <SideBar />
+                
+                   
                     </div>
+
                 </div>
             </div>
    </>
