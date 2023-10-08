@@ -1,4 +1,4 @@
-
+"use client"
 import { CiMail } from "react-icons/ci";
 import { AiOutlineBell } from "react-icons/ai";
 import { User } from "@nextui-org/react";
