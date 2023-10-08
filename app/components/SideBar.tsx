@@ -6,12 +6,12 @@ import { LuLayoutDashboard } from "react-icons/lu";
 const SideBar: React.FC = () => {
   return (
     <>
-      <div className="bg-white flex-[1] w-[22vw]  md:h-[100vh] flex item-center md:items-start md:flex-col gap-4 overflow-hidden rounded-l-[40px]">
+      <div className="bg-white hidden flex-[1] w-[19vw]  md:h-[100vh] md:flex item-center md:items-start md:flex-col gap-4 overflow-hidden rounded-l-[40px]">
         <div className="p-4 flex  items-center"> {/*<Header />*/} </div>
 
         <div className="relative md:w-full md:mt-4 flex flex-col gap-4 text-2xl  text-black p-4">
-        <div className="text-[1.1rem] flex items-center justify-start gap-2">
-             Dashboard
+          <div className="text-[1.1rem] flex items-center justify-start gap-2">
+            Dashboard
           </div>
           <div className="w-[95%] h-[100px] bg-gray-900 rounded-xl flex justify-evenly items-center p-2 text-white">
             <div className="flex flex-col justify-evenly items-center">
@@ -38,8 +38,8 @@ const SideBar: React.FC = () => {
             <LuLayoutDashboard className="text-xl" /> Stock and Fund
           </div>
 
-          <hr className="mt-9"/>
-          
+          <hr className="mt-9" />
+
           <div className="text-[1.1rem] flex items-center justify-start gap-2">
             <LuLayoutDashboard className="text-xl" /> Wallet
           </div>
@@ -49,7 +49,6 @@ const SideBar: React.FC = () => {
           <div className="text-[1.1rem] flex items-center justify-start gap-2">
             <LuLayoutDashboard className="text-xl" /> Stock and Fund
           </div>
-
         </div>
       </div>
     </>
