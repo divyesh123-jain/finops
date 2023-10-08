@@ -8,11 +8,11 @@ import { AiOutlineDown } from "react-icons/ai";
 const Header: React.FC = () => {
   return (
     <>
-      <div className="hidden absolute top-0 right-0 md:flex justify-between w-[100%] md:rounded-tr-[40px] text-black h-[10vh] p-4 bg-white rounded-tl-[40px]">
-        <div className="inline-block"> LOGO </div>
+      <div className="hidden absolute top-0 right-0 md:flex justify-between w-[81%] md:rounded-tr-[40px] text-black h-[10vh] p-4 bg-white">
+        {/* <div className="inline-block"> LOGO </div> */}
 
         {/* <div className="flex justify-between"> */}
-        <div className="w-96 md:-ml-32 bg-gray-100 h-8 flex justify-start items-center rounded-md p-2 gap-1">
+        <div className="w-96 bg-gray-100 h-8 flex justify-start items-center rounded-md p-2 gap-1">
           <AiOutlineSearch /> Search
         </div>
 

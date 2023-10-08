@@ -6,7 +6,7 @@ import { LuLayoutDashboard } from "react-icons/lu";
 const SideBar: React.FC = () => {
   return (
     <>
-      <div className="bg-white hidden flex-[1] w-[19vw]  md:h-[100vh] md:flex item-center md:items-start md:flex-col gap-4 overflow-hidden rounded-l-[40px]">
+      <div className="bg-white hidden flex-[1] w-[19vw]  md:h-[100vh] md:flex item-center md:items-start md:flex-col gap-4 overflow-hidden rounded-l-[40px] border-r-2 z-10 border-slate-200">
         <div className="p-4 flex  items-center"> {/*<Header />*/} </div>
 
         <div className="relative md:w-full md:mt-4 flex flex-col gap-4 text-2xl  text-black p-4">
