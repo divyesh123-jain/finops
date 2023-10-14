@@ -17,6 +17,7 @@ export default function Home() {
           </div>
         </div>
       </div> */}
+      <span className="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur vero eius blanditiis voluptatem molestias, deserunt quidem quam nisi ab omnis maxime odit inventore magni placeat deleniti iure. Quo inventore recusandae fugit dolore eaque ipsum, dolorum quasi quis laboriosam. Placeat provident harum animi ipsum molestiae totam nisi! Suscipit adipisci iusto corrupti</span>
     </>
   );
 }
