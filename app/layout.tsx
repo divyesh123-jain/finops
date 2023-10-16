@@ -30,7 +30,7 @@ export default async function RootLayout({
                 <div className="relative bg-white/95 rounded-2xl flex gap-4 w-full h-full md:rounded-[40px]">
                   <SideBar />
                   <Header />
-                  <div className="mt-14 w-[80vw] p-3">{children}</div>
+                  <div className="mt-14 w-[80vw] p-1">{children}</div>
                 </div>
               </div>
             </div>

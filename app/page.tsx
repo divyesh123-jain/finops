@@ -6,6 +6,9 @@ import { Image } from "@nextui-org/react";
 import "./globals.css";
 import SideBar from "@/app/components/SideBar";
 import Header from "@/app/components/Header";
+import Share from "./components/Share";
+import Watchlist from "./components/Watchlist";
+import GraphComp from "./components/GraphComp";
 export default function Home() {
   return (
     <>
@@ -17,7 +20,27 @@ export default function Home() {
           </div>
         </div>
       </div> */}
-      <span className="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur vero eius blanditiis voluptatem molestias, deserunt quidem quam nisi ab omnis maxime odit inventore magni placeat deleniti iure. Quo inventore recusandae fugit dolore eaque ipsum, dolorum quasi quis laboriosam. Placeat provident harum animi ipsum molestiae totam nisi! Suscipit adipisci iusto corrupti</span>
+      <div className="text-black text-lg font-bold my-3">My Portfolio</div>
+      <Share />
+      <div className="relative h-[53%] grid grid-cols-3 mt-3 w-[98%]">
+        <span className="relative col-span-2 h-[99%] bg-white rounded-lg mr-1">
+          <GraphComp />
+        </span>
+        <span className="col-span-1 h-[99%] bg-white text-black rounded-lg ml-1">
+          <div className="flex items-center justify-between mb-4 p-4">
+            <h5 className="text-xl font-bold leading-none text-gray-900 ">
+              My watchlist
+            </h5>
+            <a
+              href="#"
+              className="text-2xl"
+            >
+              +
+            </a>
+          </div>
+          <Watchlist />
+        </span>
+      </div>
     </>
   );
 }
